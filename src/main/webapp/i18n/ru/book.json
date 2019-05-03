@@ -1,0 +1,25 @@
+{
+  "jhipsterLibraryApplicationApp": {
+    "book": {
+      "home": {
+        "title": "Books",
+        "createLabel": "Создать новый Book",
+        "createOrEditLabel": "Создать или отредактировать Book"
+      },
+      "created": "Новый Book создан с идентификатором {{ param }}",
+      "updated": "Book обновлен с идентификатором {{ param }}",
+      "deleted": "Book удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Book {{ id }}?"
+      },
+      "detail": {
+        "title": "Book"
+      },
+      "name": "Name",
+      "description": "Description",
+      "comment": "Comment",
+      "author": "Author",
+      "genre": "Genre"
+    }
+  }
+}
