@@ -1,0 +1,22 @@
+{
+  "jhipsterLibraryApplicationApp": {
+    "comment": {
+      "home": {
+        "title": "Comments",
+        "createLabel": "Создать новый Comment",
+        "createOrEditLabel": "Создать или отредактировать Comment"
+      },
+      "created": "Новый Comment создан с идентификатором {{ param }}",
+      "updated": "Comment обновлен с идентификатором {{ param }}",
+      "deleted": "Comment удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Comment {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment"
+      },
+      "comment": "Comment",
+      "book": "Book"
+    }
+  }
+}

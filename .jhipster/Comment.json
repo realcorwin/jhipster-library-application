@@ -1,0 +1,27 @@
+{
+    "name": "Comment",
+    "fields": [
+        {
+            "fieldName": "comment",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "book",
+            "otherEntityRelationshipName": "comment",
+            "relationshipName": "book",
+            "otherEntityField": "name"
+        }
+    ],
+    "changelogDate": "20190503144452",
+    "entityTableName": "comment",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Genre",
+    "fields": [
+        {
+            "fieldName": "genreName",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "book",
+            "otherEntityRelationshipName": "genre",
+            "relationshipName": "book"
+        }
+    ],
+    "changelogDate": "20190503144450",
+    "entityTableName": "genre",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
